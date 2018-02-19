@@ -1,0 +1,16 @@
+{
+  "name": "jenkins_test",
+  "version": "1.0.0",
+  "description": "testing project",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/Echo_postman_collection.json"
+  },
+  "author": "Krzysztof Wolowicz",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
